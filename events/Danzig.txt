@@ -1,0 +1,29 @@
+add_namespace = danzig
+
+#Should we join Poland?
+country_event = {
+		id = danzig.1
+		title = danzig.1.t
+		desc = danzig.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = FCD
+				date > 1920.11.9
+				country_exists = POL
+		}
+		
+		option = {
+				name = danzig.1.a
+				ai_chance = { factor = 95 }
+				POL = { annex_country = { target = FCD } }
+				hidden_effect = { news_event = news.1 }
+		}
+		
+		option = {
+				name = danzig.1.b
+				ai_chance = { factor = 5 }
+				add_political_power = -250
+		}
+}

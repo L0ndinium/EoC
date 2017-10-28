@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+		LUX_Rich = {
+			allowed = {
+				original_tag = LUX
+			}
+			
+			picture = generic_industrial_concern_2
+			
+			removal_cost = -1
+
+			modifier = {
+				research_time_factor = -0.1
+				MONTHLY_POPULATION = 0.25
+			}
+		}
+	}
+	
+	
+}

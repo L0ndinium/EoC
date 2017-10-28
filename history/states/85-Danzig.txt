@@ -1,0 +1,28 @@
+state={
+	id=85
+	name="STATE_85"
+	manpower = 1080100
+	
+	state_category = city
+	history={
+		owner = FCD
+		victory_points = {
+			362 20
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			362 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = FCD
+		add_core_of = POL
+	}
+
+	provinces={
+		362 389 9263 
+	}
+	add_extra_state_shared_building_slots = 4
+}

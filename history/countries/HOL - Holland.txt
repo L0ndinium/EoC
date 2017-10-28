@@ -1,0 +1,86 @@
+﻿capital = 7
+
+oob = "HOL_1920"
+
+set_research_slots = 2
+
+set_technology = {
+
+}
+
+add_ideas = {
+	
+}
+
+set_convoys = 50
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 92
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1918.10.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Piet Teutelink"
+	desc = "POLITICS_PIET_TEUTELINK_DESC"
+	picture = "gfx/leaders/HOL/PietTeutelink.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Coen Eekmate"
+	desc = "POLITICS_COEN_EEKMATE_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_3.dds"
+	expire = "1990.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wil Grisjen"
+	desc = "POLITICS_WIL_GRISJEN_DESC"
+	picture = "gfx/leaders/HOL/WilGrisjen.dds"
+	expire = "1990.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Remko Rozendom"
+	desc = "POLITICS_REMKO_ROZENDOM_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	expire = "1990.1.1"
+	ideology = rexism
+	traits = {
+		#
+	}
+}

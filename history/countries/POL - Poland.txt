@@ -1,0 +1,87 @@
+﻿capital = 10
+
+oob = "POL_1920"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	POL_AuthDrift
+	POL_IndirectRussia
+}
+
+set_convoys = 10
+set_national_unity = 0.65
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 75
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = { 
+			popularity = 20
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1919.6.8"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Roman Dmowski"
+	desc = "POLITICS_ROMAN_DMOWSKI_DESC"
+	picture = "gfx/leaders/POL/RomanDmowski.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jozef Pilsudski"
+	desc = "POLITICS_JOSEF_PILSUDSKI_DESC"
+	picture = "gfx/leaders/POL/JozefPilsudski.dds"
+	expire = "1990.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jan Mosdorf"
+	desc = "POLITICS_JAN_MOSDORF_DESC"
+	picture = "gfx/leaders/POL/JanMosdorf.dds"
+	expire = "1990.1.1"
+	ideology = rexism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Slawomir Greb"
+	desc = "POLITICS_SLAWOMIR_GREB_DESC"
+	picture = "gfx/leaders/POL/SlawomirGreb.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

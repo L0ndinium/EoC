@@ -1,0 +1,32 @@
+division_template = {
+	name = "Dutch Infantry"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}	
+}
+
+units = {
+
+	
+	division= {	
+		name = "First Dutch Infantry"
+		location = 391
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Second Dutch Infantry"
+		location = 3211
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Third Dutch Infantry"
+		location = 8496
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+}

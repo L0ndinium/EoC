@@ -1,0 +1,68 @@
+division_template = {
+  name = "Polish Infantry"
+
+  regiments = {
+    infantry = { x = 0 y = 0}
+	infantry = { x = 1 y = 0}
+	infantry = { x = 2 y = 0}
+  }
+}
+
+division_template = {
+  name = "Hussar Regiment"
+
+  regiments = {
+    cavalry = { x = 0 y = 0}
+  }
+}
+
+units = {
+		division= {
+			name = "1. Polish Infantry"
+			location = 3544
+			division_template = "Polish Infantry"
+			start_experience_factor = 0.1
+		}
+		division= {
+			name = "2. Polish Infantry"
+			location = 3544
+			division_template = "Polish Infantry"
+			start_experience_factor = 0.1
+		}
+		division= {
+			name = "1. Hussar Regiment"
+			location = 3544
+			division_template = "Hussar Regiment"
+			start_experience_factor = 0.3
+		}
+		division= {
+			name = "3. Polish Infantry"
+			location = 6558
+			division_template = "Polish Infantry"
+			start_experience_factor = 0.1
+		}
+		division= {
+			name = "4. Polish Infantry"
+			location = 9427
+			division_template = "Polish Infantry"
+			start_experience_factor = 0.1
+		}
+		division= {
+			name = "5. Polish Infantry"
+			location = 9508
+			division_template = "Polish Infantry"
+			start_experience_factor = 0.1
+		}
+		division= {
+			name = "2. Hussar Regiment"
+			location = 11479
+			division_template = "Hussar Regiment"
+			start_experience_factor = 0.3
+		}
+		division= {
+			name = "6. Polish Infantry"
+			location = 3392
+			division_template = "Polish Infantry"
+			start_experience_factor = 0.1
+		}
+}

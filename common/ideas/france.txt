@@ -1,0 +1,37 @@
+ideas = {
+
+	country = {
+		FRA_WonGW = {
+			allowed = {
+				original_tag = FRA
+			}
+			
+			picture = generic_victors_of_ww1
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				land_doctrine = -0.5
+			}
+			modifier = {
+				unity_factor = 0.05
+			}
+		}
+		FRA_BuildingMaginot = {
+			allowed = {
+				original_tag = FRA
+			}
+			
+			picture = generic_fortify_the_borders
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				production_speed_bunker_factor = 0.4
+			}
+		}
+	}
+	
+	
+}

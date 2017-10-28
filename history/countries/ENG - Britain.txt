@@ -1,0 +1,92 @@
+﻿capital = 126
+
+oob = "ENG_1920"
+
+set_research_slots = 3
+
+set_national_unity = 0.7
+
+set_technology = {
+	#
+}
+
+add_ideas = {
+	ENG_Greatwar_Victor
+	ENG_Stoic
+}
+
+set_convoys = 100
+
+puppet = MAL
+puppet = RAJ
+puppet = IRQ
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 92
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 3
+		}
+		
+		neutrality = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1918.5.6"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "George V and the parliament"
+	desc = "POLITICS_GEORGEV_DESC"
+	picture = "gfx/leaders/ENG/GeorgeVParliament.dds"
+	expire = "1990.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Socialist Executive Committee"
+	desc = "POLITICS_ENGSOCIALIST_DESC"
+	picture = "gfx/leaders/ENG/SocialistExecutiveCommittee.dds"
+	expire = "1990.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "William Joyce"
+	desc = "POLITICS_WILLIAM_JOYCE_DESC"
+	picture = "gfx/leaders/ENG/WilliamJoyce.dds"
+	expire = "1990.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Isaac Richards"
+	desc = "POLITICS_ISAAC_RICHARDS_DESC"
+	picture = "gfx/leaders/ENG/IsaacRichards.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

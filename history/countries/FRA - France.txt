@@ -1,0 +1,89 @@
+﻿capital = 16
+
+oob = "FRA_1920"
+
+set_research_slots = 3
+
+set_technology = {
+
+}
+
+add_ideas = {
+	FRA_WonGW
+	FRA_BuildingMaginot
+}
+
+set_convoys = 50
+
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 82
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 14
+			banned = no
+		}
+		
+		neutrality = {
+			popularity = 4
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1919.11.30"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Edouard Herriot"
+	desc = "POLITICS_EDOUARD_HERRIOT_DESC"
+	picture = "gfx/leaders/FRA/EdouardHerriot.dds"
+	expire = "1990.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ludovic Frossard"
+	desc = "POLITICS_LUDOVIC_FROSSARD_DESC"
+	picture = "gfx/leaders/FRA/LudovicFrossard.dds"
+	expire = "1990.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Enzo Millet"
+	desc = "POLITICS_ENZO_MILLET_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+	expire = "1990.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel Maitre"
+	desc = "POLITICS_GABRIEL_MAITRE_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

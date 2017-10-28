@@ -1,0 +1,380 @@
+﻿add_namespace = germany
+
+#Germany has 10 Divisions & Treaty of Versailles
+country_event = {
+		id = germany.1
+		title = germany.1.t
+		desc = germany.1.d
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_versailles
+				num_divisions > 9
+				NOT = {
+					has_idea = GER_MaxTroops
+				}
+				NOT = {
+					has_idea = GER_RapalloTreaty
+				}
+		}
+		
+		option = {
+				name = germany.1.a
+				add_ideas = GER_MaxTroops
+		}
+}
+
+#Germany has less than 10 Divisions & Treaty of Versailles
+country_event = {
+		id = germany.2
+		title = germany.2.t
+		desc = germany.2.d
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_MaxTroops
+				num_divisions < 10
+		}
+		
+		option = {
+				name = germany.2.a
+				remove_ideas = GER_MaxTroops
+		}
+}
+
+#The Kapp Putsch 1920
+country_event = {
+		id = germany.3
+		title = germany.3.t
+		desc = germany.3.d
+		picture = Kapp_Coup.dds
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				date > 1920.3.12
+				NOT = {
+					GER = { has_government = neutrality }
+					GER = { has_government = fascism }
+				}
+		}
+		
+		option = {
+				name = germany.3.a
+				ai_chance = { factor = 80 }
+				add_political_power = -50
+		}
+		
+		option = {
+				name = germany.3.b
+				ai_chance = { factor = 20 }
+				add_popularity = { ideology = neutrality popularity = 0.05 }
+				add_political_power = -150
+		}
+}
+
+#Dolchstoßlegende
+country_event = {
+		id = germany.4
+		title = germany.4.t
+		desc = germany.4.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_versailles
+				date > 1920.8.12
+		}
+		
+		option = {
+				name = germany.4.a
+				add_timed_idea = { idea = GER_Verrat days = 100 }
+		}
+}
+
+#Rise of Fasciscm
+country_event = {
+		id = germany.5
+		title = germany.5.t
+		desc = germany.5.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				fascism > 0.0099
+		}
+		
+		option = {
+				name = germany.5.a
+				ai_chance = { factor = 90 }
+		}
+		option = {
+				name = germany.5.b
+				ai_chance = { factor = 10 }
+				add_popularity = { ideology = fascism popularity = 0.01 }
+		}
+}
+
+#French occupation of Rheinland
+country_event = {
+		id = germany.6
+		title = germany.6.t
+		desc = germany.6.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_versailles
+				date > 1920.1.10
+		}
+		
+		option = {
+				name = germany.6.a
+				42 = { set_demilitarized_zone = yes }
+				51 = { set_demilitarized_zone = yes }
+		}
+}
+
+#War reparations
+country_event = {
+		id = germany.7
+		title = germany.7.t
+		desc = germany.7.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_versailles
+				date > 1921.3.4
+		}
+		
+		option = {
+				name = germany.7.a
+				add_ideas = GER_Reparations
+		}
+}
+
+#Rapallo Treaty - remove division limit
+country_event = {
+		id = germany.8
+		title = germany.8.t
+		desc = germany.8.d
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_RapalloTreaty
+				has_idea = GER_MaxTroops
+				num_divisions < 25
+		}
+		
+		option = {
+				name = germany.8.a
+				remove_ideas = GER_MaxTroops
+		}
+}
+
+#Treaty of Rapallo
+country_event = {
+		id = germany.9
+		title = germany.9.t
+		desc = germany.9.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				country_exists = SOV
+				date > 1922.4.15
+		}
+		
+		option = {
+				name = germany.9.a
+				ai_chance = { factor = 90 }
+				add_ideas = GER_RapalloTreaty
+				SOV = { add_tech_bonus = { bonus = 0.5 uses = 2 category = infantry_weapons } }
+				SOV = { add_tech_bonus = { bonus = 0.5 uses = 1 category = land_doctrine } }
+				SOV = { add_tech_bonus = { bonus = 0.5 uses = 1 category = armor } }
+		}
+		
+		option = {
+				name = germany.9.b
+				ai_chance = { factor = 10 }
+				add_popularity = { ideology = democratic popularity = 0.05 }
+		}
+}
+
+#Beer Hall Putsch
+country_event = {
+		id = germany.10
+		title = germany.10.t
+		desc = germany.10.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				date > 1923.11.7
+		}
+		
+		option = {
+				name = germany.10.a
+				add_popularity = { ideology = fascism popularity = 0.03 }
+		}
+}
+				
+#Germany goes Authoritarian
+country_event = {
+		id = germany.11
+		title = germany.11.t
+		desc = germany.11.d
+				
+		is_triggered_only = yes
+				
+		option = {
+				name = germany.11.a
+		}
+}
+
+#Rapallo Treaty - too much growth even with it
+country_event = {
+		id = germany.12
+		title = germany.12.t
+		desc = germany.12.d
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_RapalloTreaty
+				num_divisions > 24
+				NOT = {
+					has_idea = GER_MaxTroops
+				}
+		}
+		
+		option = {
+				name = germany.12.a
+				add_ideas = GER_MaxTroops
+		}
+}
+
+#Food Shortages end
+country_event = {
+		id  = germany.13
+		title = germany.13.t
+		desc = germany.13.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_hunger
+				date > 1920.8.2
+		}
+		
+		option = {
+				name = germany.13.a
+				remove_ideas = GER_hunger
+		}
+}
+
+#Max Weber dies
+country_event = {
+		id  = germany.14
+		title = germany.14.t
+		desc = germany.14.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				date > 1920.6.13
+		}
+		
+		option = {
+				name = germany.14.a
+				add_political_power = -25
+		}
+}
+
+#Communist risings of March 1921
+country_event = {
+		id = germany.15
+		title = germany.15.t
+		desc = germany.15.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				communism > 0.025
+				date > 1921.3.2
+		}
+		
+		option = {
+				name = germany.15.a
+				add_political_power = -100
+				add_popularity = { ideology = communism popularity = 0.02 }
+		}
+}
+
+#The Region of Berlin hits 4 Million inhabitants
+country_event = {
+		id = germany.16
+		title = germany.16.t
+		desc = germany.16.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				date > 1925.4.15
+		}
+		
+		option = {
+				name = germany.16.a
+				add_political_power = 10
+		}
+}
+
+#1922 Strike of Berlin
+country_event = {
+		id = germany.17
+		title = germany.17.t
+		desc = germany.17.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				date > 1920.5.16
+		}
+		
+		option = {
+				name = germany.17.a
+				add_political_power = -50
+				add_timed_idea = { idea = GER_BerlinFucked days = 7 }
+		}
+}
+
+#Upper Silesia Villages transferred to Poland
+country_event = {
+		id = germany.18
+		title = germany.18.t
+		desc = germany.18.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				date > 1922.7.16
+		}
+		
+		option = {
+				name = germany.18.a
+				add_national_unity = -0.05
+		}
+}

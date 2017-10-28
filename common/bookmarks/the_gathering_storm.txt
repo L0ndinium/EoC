@@ -1,0 +1,61 @@
+bookmarks = {
+	bookmark = {
+		name = "EOC_NEW_NAME"
+		desc = "EOC_NEW_DESC"
+		date = 1920.1.1.12
+		picture = "GFX_select_date_1920"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_EOC_DESC"
+			ideology = democratic
+			ideas = {
+				FRA_WonGW
+				FRA_BuildingMaginot
+			}
+		}
+		"USA"={
+			history = "USA_EOC_DESC"
+			ideology = democratic
+		}
+		"ENG"={
+			history = "ENG_EOC_DESC"
+			ideology = democratic
+			ideas = {
+				ENG_Stoic
+				ENG_Greatwar_Victor
+			}
+		}
+
+		"GER"={
+			history = "GER_EOC_DESC"
+			ideology = fascism
+			ideas = {
+				GER_versailles
+				GER_hunger
+			}
+		}
+		"ITA"={
+			history = "ITA_EOC_DESC"
+			ideology = fascism	
+		}
+		"JAP"={
+			history = "JAP_EOC_DESC"
+			ideology = fascism		
+		}
+		"SOV"={
+			history = "SOV_EOC_DESC"
+			ideology = communism
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,51 @@
+﻿capital = 8
+
+oob = "LUX_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	LUX_Rich
+}
+
+set_convoys = 0
+set_national_unity = 0.8
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 72
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 2
+		}
+		
+		neutrality = {
+			popularity = 26
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1919.6.3"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Olivier Reis"
+	desc = "POLITICS_OLIVIER_REIS_DESC"
+	picture = "gfx/leaders/LUX/OlivierReis.dds"
+	expire = "1990.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

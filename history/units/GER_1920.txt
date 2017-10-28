@@ -1,0 +1,77 @@
+﻿division_template = {
+	name = "Infanteriedivision"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+	}	
+}
+division_template = {
+	name = "Kavalleriebrigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	
+	division= {	
+		name = "1. Infanterie-Division"
+		location = 6521
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 692
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3. Infanterie-Division"
+		location = 6488
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4. Infanterie-Division"
+		location = 6469
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5. Infanterie-Division"
+		location = 9347
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "6. Infanterie-Division"
+		location = 9517
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "1. Kavalleriebrigade"
+		location = 6521
+		division_template = "Kavalleriebrigade"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2. Kavalleriebrigade"
+		location = 692
+		division_template = "Kavalleriebrigade"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3. Kavalleriebrigade"
+		location = 6488
+		division_template = "Kavalleriebrigade"
+		start_experience_factor = 0.1
+	}
+	

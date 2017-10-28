@@ -1,0 +1,16 @@
+division_template = {
+  name = "City Guard"
+
+  regiments = {
+    infantry = { x = 0 y = 0}
+  }
+}
+
+units = {
+		division= {
+			name = "Danzig City Guard"
+			location = 362
+			division_template = "City Guard"
+			start_experience_factor = 0.1
+		}
+}

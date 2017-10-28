@@ -1,0 +1,96 @@
+﻿capital = 64
+
+oob = "GER_1920"
+
+
+set_technology = {
+
+}
+
+add_ideas = {
+	GER_versailles
+	GER_hunger
+	disarmed_nation
+	isolation
+}
+
+create_import = {
+		resource = oil
+		factories = 1
+		exporter = USA
+}
+
+set_research_slots = 3
+set_convoys = 20
+set_national_unity = 0.5
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 86
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 6
+			banned = no
+		}
+		neutrality = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1919.2.11"
+	election_frequency = 96
+	elections_allowed = yes
+
+}
+
+create_country_leader = {
+	name = "Friedrich Ebert"
+	desc = "POLITICS_FRIEDRICH_EBERT_DESC"
+	picture = "gfx/leaders/GER/FriedrichEbert.dds"
+	expire = "1990.1.1"
+	ideology = socialism
+	traits = {
+		silent_workhorse
+	}
+}
+
+create_country_leader = {
+	name = "Stefan Egner"
+	desc = "POLITICS_STEFAN_EGNER_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	expire = "1990.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Adolf Hitler"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "gfx/leaders/GER/AdolfHitler.dds"
+	expire = "1990.1.1"
+	ideology = nazism
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Paul Levi"
+	desc = "POLITICS_PAUL_LEVI_DESC"
+	picture = "gfx/leaders/GER/PaulLevi.dds"
+	expire = "1990.1.1"
+	ideology = marxism
+	traits = {
+		ideological_crusader
+	}
+}

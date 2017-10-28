@@ -1,0 +1,99 @@
+ideas = {
+
+	country = {
+		GENERIC_Construction = {
+			allowed = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		GENERIC_Auth = {
+			allowed = {
+				always = yes
+			}
+			
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = -0.025
+			}
+		}
+		GENERIC_Democracy = {
+			allowed = {
+				always = yes
+			}
+			
+			picture = generic_democratic_drift_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.05
+			}
+		}
+		GENERIC_Communism = {
+			allowed = {
+				always = yes
+			}
+			
+			picture = generic_communism_drift_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.05
+			}
+		}
+		GENERIC_Monarchy = {
+			allowed = {
+				always = yes
+			}
+			
+			picture = idea_hun_hungarian_monarchy
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.05
+			}
+		}
+		GENERIC_Dockyards = {
+			allowed = {
+				always = yes
+			}
+			
+			
+			picture = idea_generic_coastal_navy
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_dockyard_factor = 0.25
+			}
+		}
+		GENERIC_OfficerSchool = {
+			allowed = {
+				always = yes
+			}
+			
+			picture = generic_infantry_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_leader_start_level = 1
+				military_leader_cost_factor = -0.50
+			}
+		}				
+	}
+	
+	
+}

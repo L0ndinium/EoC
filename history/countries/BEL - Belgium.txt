@@ -1,0 +1,86 @@
+﻿capital = 6
+
+oob = "BEL_1920"
+
+set_research_slots = 2
+
+set_technology = {
+
+}
+
+add_ideas = {
+	BEL_HalfDemo
+}
+
+set_convoys = 50
+set_national_unity = 0.7
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 73
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 3
+		}
+		
+		neutrality = {
+			popularity = 24
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1909.12.23"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_ALBERTI_DESC"
+	picture = "gfx/leaders/BEL/AlbertI.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Charles Delmote"
+	desc = "POLITICS_CHARLES_DELMOTE_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+	expire = "1990.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Niels Fremaut"
+	desc = "POLITICS_NIELS_FREMAUT_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pierre Albert"
+	desc = "POLITICS_PIERRE_ALBERT_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	expire = "1990.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
