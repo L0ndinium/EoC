@@ -31,6 +31,21 @@ ideas = {
 				production_speed_bunker_factor = 0.4
 			}
 		}
+		FRA_ReparationsFromGermany = {
+			allowed = {
+				original_tag = FRA
+			}
+			
+			picture = generic_air_manufacturer_2
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
 	}
 	
 	

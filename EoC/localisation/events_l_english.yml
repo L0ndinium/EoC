@@ -1297,6 +1297,12 @@
  france.1.t:0 "The Maginot Project slows down"
  france.1.d:0 "We need to put focus on other construction projects again, or our economy will weaken. We can continue work on the Maginot line, of course, but it will be considerably slower."
  france.1.a:0 "We won't let that hold us back."
+ france.2.t:0 "War Reparations"
+ france.2.d:0 "Germany has been forced by the treaty of Versailles to pay reparations for the Great War to some nations, including ours. From now on, our economy will benefit from these payments as long as we receive them."
+ france.2.a:0 "Serves them right!"
+ france.3.t:0 "War Reparations stopped!"
+ france.3.d:0 "Germany has decided to stop paying war reparations! This will weaken the economies of all countries they previously paid them to."
+ france.3.a:0 "Preposterous!"
  
  danzig.1.t:0 "Joining Poland"
  danzig.1.d:0 "We have existed as an independent state up to now, but we have always known that we are ultimately just a proxy of the polish nation. The powers that be now request that we will reunite with Poland and join their country under their flag. Accepting is obviously the sane choice. We could also decline, but that would cripple our political sphere for a while."

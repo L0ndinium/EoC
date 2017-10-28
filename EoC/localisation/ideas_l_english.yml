@@ -2523,6 +2523,8 @@
  FRA_WonGW_desc:0 "Our people and military take pride in having won the Great War, but it has also made them lazy."
  FRA_BuildingMaginot:0 "Constructing the Maginot Line"
  FRA_BuildingMaginot_desc:0 "We are currently constructing the Maginot Line. It will take some building speed off other projects, but allow us to construct defensive forts quickly."
+ FRA_ReparationsFromGermany:0 "War Reparations"
+ FRA_ReparationsFromGermany_desc:0 "Germany is forced to pay our country war reparations, boosting our economy."
  
  BEL_HalfDemo:0 "Belgian Democracy"
  BEL_HalfDemo_desc:0 "The country of Belgium has a very complex political system, and also still has a king as head of state even though they are a democracy."

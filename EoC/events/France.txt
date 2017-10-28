@@ -19,3 +19,37 @@ country_event = {
 				remove_ideas = FRA_BuildingMaginot
 		}
 }
+
+#War Reparations from Germany
+country_event = {
+		id = france.2
+		title = france.2.t
+		desc = france.2.d
+		
+		trigger = {
+				tag = FRA
+				GER = { has_idea = GER_Reparations }
+		}
+		
+		option = {
+				name = france.2.a
+				add_ideas = FRA_ReparationsFromGermany
+		}
+}
+
+#War Reparations from Germany stop
+country_event = {
+		id = france.3
+		title = france.3.t
+		desc = france.3.d
+		
+		trigger = {
+				tag = FRA
+				GER = { NOT = { has_idea = GER_Reparations } }
+		}
+		
+		option = {
+				name = france.3.a
+				remove_ideas = FRA_ReparationsFromGermany
+		}
+}
