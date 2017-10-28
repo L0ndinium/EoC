@@ -32,6 +32,7 @@ set_politics = {
 		
 		neutrality = {
 			popularity = 17
+		}
 	}
 	
 	ruling_party = democratic

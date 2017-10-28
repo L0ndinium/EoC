@@ -46,6 +46,45 @@ ideas = {
 				industrial_capacity_factory = 0.1
 			}
 		}
+		FRA_WellFed = {
+			allowed = {
+				original_tag = FRA
+			}
+			
+			picture = generic_agrarian_society
+			
+			removal_cost = -1
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.2
+			}
+		}
+		FRA_Communism = {
+			allowed = {
+				original_tag = FRA
+			}
+			
+			picture = generic_communism_drift_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.05
+			}
+		}
+		FRA_Democratic = {
+			allowed = {
+				original_tag = FRA
+			}
+			
+			picture = generic_democratic_drift_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.05
+			}
+		}
 	}
 	
 	

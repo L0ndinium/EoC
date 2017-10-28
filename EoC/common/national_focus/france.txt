@@ -1,0 +1,587 @@
+focus_tree = {
+id = 'france'
+country = {
+factor=0
+modifier = {
+add = 10
+tag = FRA
+}
+}
+default = no
+#Custom focuses start here
+#Focus for The French Economy 
+		focus = { 
+		id = thefrencheconomy 
+		icon = GFX_goal_generic_major_alliance 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =6 
+ y =0 
+ mutually_exclusive = { } 
+ prerequisite = { } 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_political_power = 100
+ } 
+ }#Focus for Develop Urban Regions 
+		focus = { 
+		id = developurbanregions 
+		icon = GFX_goal_generic_fortify_city 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =3 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = thefrencheconomy} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	27 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+	27 = { add_extra_state_shared_building_slots = 1 }
+	29 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+	29 = { add_extra_state_shared_building_slots = 1 }
+ } 
+ }#Focus for Usines d'Armes 
+		focus = { 
+		id = usinesdarmes 
+		icon = GFX_goal_generic_construct_mil_factory 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =2 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = developurbanregions} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	19 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+	19 = { add_extra_state_shared_building_slots = 1 }
+	21 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+	21 = { add_extra_state_shared_building_slots = 1 }
+ } 
+ }#Focus for Aciéries 
+		focus = { 
+		id = aciries 
+		icon = GFX_goal_generic_construction2 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =2 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = usinesdarmes} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_resource = { type = steel amount = 40 state = 17 }
+ } 
+ }#Focus for Nantes Factories 
+		focus = { 
+		id = nantesfactories 
+		icon = GFX_goal_generic_construct_mil_factory 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =2 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = aciries} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	14 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+	14 = { add_extra_state_shared_building_slots = 1 }
+ } 
+ }#Focus for Feed the People 
+		focus = { 
+		id = feedthepeople 
+		icon = GFX_goal_generic_construct_civ_factory 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =4 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = developurbanregions} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_ideas = FRA_WellFed
+ } 
+ }#Focus for The Paris Boom 
+		focus = { 
+		id = theparisboom 
+		icon = GFX_goal_generic_construct_civ_factory 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =4 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = feedthepeople} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	16 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+	16 = { add_extra_state_shared_building_slots = 1 }
+ } 
+ }#Focus for Mediterranean Goods 
+		focus = { 
+		id = mediterraneangoods 
+		icon = GFX_goal_generic_construction 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =4 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = theparisboom} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	735 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+	735 = { add_extra_state_shared_building_slots = 1 }
+ } 
+ }#Focus for Repair the Railways 
+		focus = { 
+		id = repairtherailways 
+		icon = GFX_goal_generic_construct_civilian 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =6 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = thefrencheconomy} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	15 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+	29 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+ } 
+ }#Focus for Paris - Metz Highway 
+		focus = { 
+		id = parismetzhighway 
+		icon = GFX_goal_generic_construct_infrastructure 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =6 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = repairtherailways} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	16 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+	18 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+	28 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+ } 
+ }#Focus for Atlantic Ports 
+		focus = { 
+		id = atlanticports 
+		icon = GFX_goal_generic_build_nay 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =6 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = parismetzhighway} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	14 = { add_building_construction = { type = naval_base province = 6536 level = 2 instant_build = yes } }
+	14 = { add_building_construction = { type = naval_base province = 3552 level = 2 instant_build = yes } }
+ } 
+ }#Focus for Mediterranean Ports 
+		focus = { 
+		id = mediterraneanports 
+		icon = GFX_goal_generic_build_nay 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =6 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = atlanticports} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	21 = { add_building_construction = { type = naval_base province = 911 level = 2 instant_build = yes } }
+	21 = { add_building_construction = { type = naval_base province = 11834 level = 2 instant_build = yes } }
+ } 
+ }#Focus for Military Buildup 
+		focus = { 
+		id = militarybuildup 
+		icon = GFX_goal_generic_demand_territory 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =10 
+ y =0 
+ mutually_exclusive = { } 
+ prerequisite = { } 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_political_power = 100
+ } 
+ }#Focus for The Maginot Line 
+		focus = { 
+		id = themaginotline 
+		icon = GFX_goal_generic_defence 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =9 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = militarybuildup} 
+ available = {  } 
+ cost = 20  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	28 = { add_building_construction = { type = bunker province = 9559 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 11502 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 3629 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 549 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 9503 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 6529 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 678 level = 2 instant_build = yes } }
+ } 
+ }#Focus for Strengthen the Line 
+		focus = { 
+		id = strengthentheline 
+		icon = GFX_goal_generic_construct_military 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =9 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = themaginotline} 
+ available = {  } 
+ cost = 20  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	28 = { add_building_construction = { type = bunker province = 9559 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 11502 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 3629 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 549 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 9503 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 6529 level = 2 instant_build = yes } }
+	28 = { add_building_construction = { type = bunker province = 678 level = 2 instant_build = yes } }
+ } 
+ }#Focus for Better Safe than Sorry 
+		focus = { 
+		id = bettersafethansorry 
+		icon = GFX_goal_generic_wolf_pack 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =11 
+ y =3 
+ mutually_exclusive = { focus = workwithbelgium} 
+ prerequisite = { focus = strengthentheline} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	29 = { add_building_construction = { type = bunker province = 11483 level = 1 instant_build = yes } }
+	29 = { add_building_construction = { type = bunker province = 11606 level = 1 instant_build = yes } }
+	29 = { add_building_construction = { type = bunker province = 575 level = 1 instant_build = yes } }
+	29 = { add_building_construction = { type = bunker province = 3447 level = 1 instant_build = yes } }
+	18 = { add_building_construction = { type = bunker province = 9472 level = 1 instant_build = yes } }
+	18 = { add_building_construction = { type = bunker province = 3560 level = 1 instant_build = yes } }
+	18 = { add_building_construction = { type = bunker province = 5291 level = 1 instant_build = yes } }
+ } 
+ }#Focus for Work with Belgium 
+		focus = { 
+		id = workwithbelgium 
+		icon = GFX_goal_generic_improve_relations 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =9 
+ y =3 
+ mutually_exclusive = { focus = bettersafethansorry} 
+ prerequisite = { focus = strengthentheline} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	34 = { add_building_construction = { type = bunker province = 3488 level = 1 instant_build = yes } }
+	34 = { add_building_construction = { type = bunker province = 6537 level = 1 instant_build = yes } }
+	34 = { add_building_construction = { type = bunker province = 11519 level = 1 instant_build = yes } }
+	6 = { add_building_construction = { type = bunker province = 11419 level = 1 instant_build = yes } }
+	6 = { add_building_construction = { type = bunker province = 9574 level = 1 instant_build = yes } }
+ } 
+ }#Focus for Cooperative Construction 
+		focus = { 
+		id = cooperativeconstruction 
+		icon = GFX_goal_generic_construct_civilian 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =9 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = workwithbelgium} 
+ available = {  } 
+ cost = 20  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	34 = { add_building_construction = { type = bunker province = 3488 level = 2 instant_build = yes } }
+	34 = { add_building_construction = { type = bunker province = 6537 level = 2 instant_build = yes } }
+	34 = { add_building_construction = { type = bunker province = 11519 level = 2 instant_build = yes } }
+	6 = { add_building_construction = { type = bunker province = 11419 level = 2 instant_build = yes } }
+	6 = { add_building_construction = { type = bunker province = 9574 level = 2 instant_build = yes } }
+ } 
+ }#Focus for Impenetrable 
+		focus = { 
+		id = impenetrable 
+		icon = GFX_goal_generic_build_tank 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =11 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = bettersafethansorry} 
+ available = {  } 
+ cost = 20 
+  available_if_capitulated = yes  
+ completion_reward = { 
+	29 = { add_building_construction = { type = bunker province = 11483 level = 2 instant_build = yes } }
+	29 = { add_building_construction = { type = bunker province = 11606 level = 2 instant_build = yes } }
+	29 = { add_building_construction = { type = bunker province = 575 level = 2 instant_build = yes } }
+	29 = { add_building_construction = { type = bunker province = 3447 level = 2 instant_build = yes } }
+	18 = { add_building_construction = { type = bunker province = 9472 level = 2 instant_build = yes } }
+	18 = { add_building_construction = { type = bunker province = 3560 level = 2 instant_build = yes } }
+	18 = { add_building_construction = { type = bunker province = 5291 level = 2 instant_build = yes } }
+ } 
+ }#Focus for The French Army 
+		focus = { 
+		id = thefrencharmy 
+		icon = GFX_goal_generic_allies_build_infantry 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =13 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = militarybuildup} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	army_experience = 50
+ } 
+ }#Focus for Corps de l'Aviation 
+		focus = { 
+		id = corpsdelaviation 
+		icon = GFX_goal_generic_air_fighter2 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =13 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = thefrencharmy} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	air_experience = 50
+ } 
+ }#Focus for Marine Francaise 
+		focus = { 
+		id = marinefrancaise 
+		icon = GFX_goal_generic_navy_battleship 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =13 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = corpsdelaviation} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	navy_experience = 50
+ } 
+ }#Focus for Recruitment 
+		focus = { 
+		id = recruitment 
+		icon = GFX_focus_generic_little_entente 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =13 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = marinefrancaise} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_manpower = 100000
+ } 
+ }#Focus for Military Technology 
+		focus = { 
+		id = militarytechnology 
+		icon = GFX_goal_generic_scientific_exchange 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =15 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = militarybuildup} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_tech_bonus = { bonus = 0.5 uses = 1 category = land_doctrine }
+ } 
+ }#Focus for French Tanks 
+		focus = { 
+		id = frenchtanks 
+		icon = GFX_goal_generic_army_tanks 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =15 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = militarytechnology} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_tech_bonus = { bonus = 0.5 uses = 1 category = armor }
+ } 
+ }#Focus for Military Tactics 
+		focus = { 
+		id = militarytactics 
+		icon = GFX_goal_generic_cavalry 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =15 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = frenchtanks} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_tech_bonus = { bonus = 0.5 uses = 1 category = land_doctrine }
+ } 
+ }#Focus for Technologie de l'Artillerie 
+		focus = { 
+		id = technologiedelartillerie 
+		icon = GFX_goal_generic_army_artillery2 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =15 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = militarytactics} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_tech_bonus = { bonus = 0.5 uses = 1 category = artillery }
+ } 
+ }#Focus for Internal Politics 
+		focus = { 
+		id = internalpolitics 
+		icon = GFX_goal_generic_intelligence_exchange 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =18 
+ y =0 
+ mutually_exclusive = { } 
+ prerequisite = { } 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_political_power = 100
+ } 
+ }#Focus for Workers Rising 
+		focus = { 
+		id = workersrising 
+		icon = GFX_goal_generic_soviet_construction 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =20 
+ y =1 
+ mutually_exclusive = { focus = liberteegalitefraternite} 
+ prerequisite = { focus = internalpolitics} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_ideas = FRA_Communism
+ } 	
+ }#Focus for Liberte, Egalite, Fraternite 
+		focus = { 
+		id = liberteegalitefraternite 
+		icon = GFX_goal_continuous_boost_freedom 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =18 
+ y =1 
+ mutually_exclusive = { focus = workersrising} 
+ prerequisite = { focus = internalpolitics} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_ideas = FRA_Democratic
+ } 
+ }#Focus for Unite France 
+		focus = { 
+		id = unitefrance 
+		icon = GFX_goal_generic_national_unity 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =19 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = liberteegalitefraternite  focus = workersrising} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_national_unity = 0.05
+ } 
+ }#Focus for Balance State Budgets 
+		focus = { 
+		id = balancestatebudgets 
+		icon = GFX_goal_generic_neutrality_focus 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =19 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = unitefrance} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_political_power = 200
+ } 
+ }#Focus for University Network 
+		focus = { 
+		id = universitynetwork 
+		icon = GFX_goal_tfv_generic_tech_sharing 
+		bypass = {} 
+ ai_will_do = { factor = } 
+ x =19 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = balancestatebudgets} 
+ available = {  } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+	add_research_slot = 1
+ } 
+ }#End of focuses 
+}

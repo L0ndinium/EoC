@@ -2525,6 +2525,12 @@
  FRA_BuildingMaginot_desc:0 "We are currently constructing the Maginot Line. It will take some building speed off other projects, but allow us to construct defensive forts quickly."
  FRA_ReparationsFromGermany:0 "War Reparations"
  FRA_ReparationsFromGermany_desc:0 "Germany is forced to pay our country war reparations, boosting our economy."
+ FRA_WellFed:0 "Food Surplus"
+ FRA_WellFed_desc:0 "After having repaired and extended the farming industry to deal with the consequences of the Great War, our country has a respectable size of food supplies."
+ FRA_Communism:0 "Workers Rising"
+ FRA_Communism_desc:0 "Frances Workers are rising for their rights in cooperation with the government - a communist regime is slowly being established."
+ FRA_Democratic:0 "Liberte, Egalite, Fraternite"
+ FRA_Democratic_desc:0 "France has always been a bastion of revolution and freedom. The country stands as one of the strongest democracies in Europe."
  
  BEL_HalfDemo:0 "Belgian Democracy"
  BEL_HalfDemo_desc:0 "The country of Belgium has a very complex political system, and also still has a king as head of state even though they are a democracy."
