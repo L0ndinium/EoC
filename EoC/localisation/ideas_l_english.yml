@@ -2530,6 +2530,9 @@
  LUX_Rich:0 "Luxembourg's Riches"
  LUX_Rich_desc:0 "Luxembourg is a small country with a long history. It has always been a bastion of wealth and refuge for the rich, which has over time led the country to become one of the worlds leaders in wealth per capita."
  
+ SPR_Boom:0 "Economic Boom"
+ SPR_Boom_desc:0 "After Spanish neutrality in the Great War allowed the country to export supplies to both sides for profit, the country is experiencing an economic boom."
+ 
  GENERIC_Construction:0 "Construction Projects"
  GENERIC_Construction_desc:0 "We are funding Construction Projects within our country."
  GENERIC_Auth:0 "Democracy receding"

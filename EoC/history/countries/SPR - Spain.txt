@@ -1,0 +1,85 @@
+﻿capital = 41
+
+oob = "SPR_1920"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	SPR_Boom
+}
+
+set_convoys = 100
+set_national_unity = 0.7
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 71
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 12
+		}
+		
+		neutrality = {
+			popularity = 17
+	}
+	
+	ruling_party = democratic
+	last_election = "1918.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alfonso XIII"
+	desc = "POLITICS_ALFONSO_XIII_DESC"
+	picture = "gfx/leaders/SPR/AlfonsoXIII.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sergio Ganoa"
+	desc = "POLITICS_SERGIO_GANOA_DESC"
+	picture = "gfx/leaders/SPR/SergioGanoa.dds"
+	expire = "1990.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Benito Montes"
+	desc = "POLITICS_BENITO_MONTES_DESC"
+	picture = "gfx/leaders/SPR/BenitoMontes.dds"
+	expire = "1990.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Francisco Franco"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "gfx/leaders/SPR/FranciscoFranco.dds"
+	expire = "1990.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

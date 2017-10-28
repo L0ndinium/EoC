@@ -1,0 +1,22 @@
+ideas = {
+
+	country = {
+		SPR_Boom = {
+			allowed = {
+				original_tag = SPR
+			}
+			
+			picture = civilian_economy
+			
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_factory_efficiency_gain_factor = 0.1
+				MONTHLY_POPULATION = 0.2
+			}
+		}
+	}
+	
+	
+}
