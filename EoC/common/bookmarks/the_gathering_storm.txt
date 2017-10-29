@@ -30,7 +30,7 @@ bookmarks = {
 
 		"GER"={
 			history = "GER_EOC_DESC"
-			ideology = fascism
+			ideology = democratic
 			ideas = {
 				GER_versailles
 				GER_hunger
@@ -38,7 +38,10 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_EOC_DESC"
-			ideology = fascism	
+			ideology = democratic	
+			ideas = {
+				ITA_Fascism
+			}
 		}
 		"JAP"={
 			history = "JAP_EOC_DESC"

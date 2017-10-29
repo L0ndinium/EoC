@@ -1,0 +1,87 @@
+﻿capital = 4
+
+oob = "AUS_1920"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_convoys = 0
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		neutrality = { 
+			popularity = 53
+		}
+
+		fascism = {
+			popularity = 0
+		}
+
+		democratic = {
+			popularity = 42
+		}
+		
+		communism = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1919.9.10"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Jan Eicke"
+	desc = "POLITICS_JAN_EICKE_DESC"
+	picture = "gfx/leaders/AUS/JanEicke.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Heinrich Friedel"
+	desc = "POLITICS_HEINRICH_FRIEDEL_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	expire = "1990.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tim Walbaum"
+	desc = "POLITICS_TIM_WALBAUM_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1990.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl Seitz"
+	desc = "POLITICS_KARL_SEITZ_DESC"
+	picture = "gfx/leaders/AUS/KarlSeitz.dds"
+	expire = "1990.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+

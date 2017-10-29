@@ -1,0 +1,53 @@
+﻿capital = 112
+
+oob = "POR_1920"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	POR_Unstable
+}
+
+set_convoys = 30
+set_national_unity = 0.75
+
+set_politics = {
+
+	parties = {
+		democratic = {
+			popularity = 2
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 3
+		}
+		
+		neutrality = {
+			popularity = 95
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1919.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Antonio Jose de Almeida"
+	desc = "POLITICS_ANTONIO_JOSE_DESC"
+	picture = "gfx/leaders/POR/Antonio.dds"
+	expire = "1990.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
