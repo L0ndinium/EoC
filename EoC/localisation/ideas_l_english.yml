@@ -2541,8 +2541,8 @@
  SPR_Boom:0 "Economic Boom"
  SPR_Boom_desc:0 "After Spanish neutrality in the Great War allowed the country to export supplies to both sides for profit, the country is experiencing an economic boom."
  
- ITA_Fasciscm:0 "Fascist Influences"
- ITA_Fasciscm_desc:0 "The so-called fascist ideology has been gaining influence in Italy ever since the Great War and tensions are rising."
+ ITA_Fascism:0 "Fascist Influences"
+ ITA_Fascism_desc:0 "The so-called fascist ideology has been gaining influence in Italy ever since the Great War and tensions are rising."
  
  POR_Unstable:0 "Unstable Country"
  POR_Unstable_desc:0 "Ever since the first Portugese Republic has been proclaimed, the country has been suffering from instability."
