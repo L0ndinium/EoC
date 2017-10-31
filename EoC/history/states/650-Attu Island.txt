@@ -1,0 +1,21 @@
+state=
+{
+	id=650
+	name="STATE_650"
+	manpower=20
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = USA
+		victory_points = {
+			13067 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces=
+	{
+13067 	}
+}
