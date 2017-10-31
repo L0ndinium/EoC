@@ -1,0 +1,49 @@
+﻿capital = 43
+
+oob = "HUN_1920"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_convoys = 0
+set_national_unity = 0.7
+
+set_politics = {
+	parties = {
+		democratic = { 
+			popularity = 22
+		}
+		fascism = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 78
+		}
+		communism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1919.3.31"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Miklos Horthy"
+	desc = "POLITICS_MIKLOS_HORTHY_DESC"
+	picture = "gfx/leaders/HUN/Horthy.dds"
+	expire = "1990.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}

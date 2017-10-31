@@ -1,0 +1,53 @@
+﻿capital = 47
+
+oob = "GRE_1920"
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 10
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = { 
+			popularity = 75
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1919.6.9"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Ioannis Metaxas"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

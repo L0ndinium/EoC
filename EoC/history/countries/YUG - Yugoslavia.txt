@@ -1,0 +1,53 @@
+﻿capital = 107
+
+oob = "YUG_1936"
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 25
+set_national_unity = 0.4
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 3
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = { 
+			popularity = 92
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1919.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prince Paul"
+	desc = "POLITICS_PRINCE_PAUL_DESC"
+	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

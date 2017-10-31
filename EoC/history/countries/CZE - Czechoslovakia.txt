@@ -1,0 +1,55 @@
+﻿capital = 9
+
+oob = "CZE_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_research_slots = 2
+
+set_convoys = 0
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 61
+		}
+
+		neutrality = { 
+			popularity = 31
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1919.5.19"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Tomas Masaryk"
+	desc = "POLITICS_TOMAS_MASARYK_DESC"
+	picture = "gfx/leaders/CZE/Masaryk.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+
