@@ -58,7 +58,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_hun_hungarian_monarchy
+			picture = hun_hungarian_monarchy
 			
 			removal_cost = -1
 			
@@ -72,7 +72,7 @@ ideas = {
 			}
 			
 			
-			picture = idea_generic_coastal_navy
+			picture = generic_coastal_navy
 			removal_cost = -1
 			
 			modifier = {
