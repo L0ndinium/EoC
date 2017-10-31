@@ -46,8 +46,8 @@ create_country_leader = {
 	desc = "POLITICS_ANTONIO_JOSE_DESC"
 	picture = "gfx/leaders/POR/Antonio.dds"
 	expire = "1990.1.1"
-	ideology = liberalism
+	ideology = moderatism
 	traits = {
-		#
+		
 	}
 }
