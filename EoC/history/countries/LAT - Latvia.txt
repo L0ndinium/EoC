@@ -1,0 +1,52 @@
+﻿capital = 12
+
+oob = "LAT_1920"
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 10
+set_national_unity = 0.5
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 17
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 26
+		}
+		
+		neutrality = { 
+			popularity = 57
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1918.10.3"
+	election_frequency = 108
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Janis Cakste"
+	desc = "POLITICS_JANIS_CAKSTE_DESC"
+	picture = "gfx/leaders/LAT/Janis.dds"
+	expire = "1990.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,53 @@
+﻿capital = 13
+
+oob = "EST_1920"
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 5
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 24
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 4
+		}
+		
+		neutrality = { 
+			popularity = 72
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1916.5.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Konstantin Päts"
+	desc = "POLITICS_KONSTANTIN_PATS_DESC"
+	picture = "GFX_Portrait_estonia_konstantin_pats"
+	expire = "1990.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}

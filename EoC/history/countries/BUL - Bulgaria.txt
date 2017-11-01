@@ -1,0 +1,63 @@
+﻿capital = 48
+
+oob = "BUL_1920"
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 10
+set_national_unity = 0.7
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 68
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+			banned = no
+		}
+		neutrality = { 
+			popularity = 32
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1916.3.21"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Boris III"
+	desc = "POLITICS_BORIS_III_DESC"
+	picture = "gfx/leaders/BUL/Boris.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Boris III"
+	desc = "POLITICS_BORIS_III_DESC"
+	picture = "gfx/leaders/BUL/Boris.dds"
+	expire = "1990.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}

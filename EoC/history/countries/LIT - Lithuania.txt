@@ -1,0 +1,54 @@
+﻿capital = 11
+
+oob = "LIT_1920"
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 5
+set_natonal_unity = 0.75
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 32
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 9
+		}
+		
+		neutrality = { 
+			popularity = 59
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1916.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Aleksandras Stulginskis"
+	desc = "POLITICS_STULGINSKIS_DESC"
+	picture = "gfx/leaders/LIT/stulginskis.dds"
+	expire = "1990.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
