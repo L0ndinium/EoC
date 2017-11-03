@@ -1,0 +1,54 @@
+﻿capital = 141	
+
+oob = "SWE_1920"
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 40
+set_national_unity = 0.75
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 79
+		}
+
+		neutrality = {
+			popularity  = 12
+		}
+
+		communism = {
+			popularity = 9
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+	}
+	
+	ruling_party = democratic
+	last_election = "1916.9.18"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Nils Eden"
+	desc = "POLITICS_NILS_EDEN_DESC"
+	picture = "gfx/leaders/SWE/NilsEden.dds"
+	expire = "1990.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}

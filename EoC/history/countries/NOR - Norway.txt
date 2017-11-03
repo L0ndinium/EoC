@@ -1,0 +1,53 @@
+﻿capital = 110
+
+oob = "NOR_1920"
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 20
+set_national_unity = 0.7
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 95
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 2
+		}
+		
+		neutrality = {
+			popularity = 3
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1918.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Gunnar Knudsen"
+	desc = "POLITICS_GUNNAR_KNUDSEN_DESC"
+	picture = "gfx/leaders/NOR/gunnar.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
