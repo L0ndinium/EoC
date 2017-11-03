@@ -20,7 +20,7 @@ create_import = {
 		exporter = USA
 }
 
-set_research_slots = 3
+set_research_slots = 2
 set_convoys = 20
 set_national_unity = 0.5
 

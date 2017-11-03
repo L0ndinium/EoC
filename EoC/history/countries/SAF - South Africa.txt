@@ -1,0 +1,54 @@
+﻿capital = 275
+
+oob = "SAF_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_research_slots = 2
+
+set_convoys = 10
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 77
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = {
+			popularity = 18
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1917.5.17"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "British Government"
+	desc = "POLITICS_SAF_BRITS_DESC"
+	picture = "gfx/leaders/SAF/Britain.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
