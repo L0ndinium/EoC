@@ -1,0 +1,54 @@
+﻿capital = 49
+
+oob = "TUR_1920"
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 20
+set_national_unity = 0.5
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		neutrality = { 
+			popularity = 90
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1919.2.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Independent Leaders"
+	desc = "POLITICS_TUR_INDEPENDENCEWAR_DESC"
+	picture = "gfx/leaders/TUR/IndependentWar.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
