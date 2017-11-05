@@ -489,7 +489,7 @@ default = no
  } 
  }#Focus for Internal Politics 
 		focus = { 
-		id = internalpolitics 
+		id = internalpoliticsfra 
 		icon = GFX_goal_generic_intelligence_exchange 
 		bypass = {} 
  ai_will_do = { factor = } 
@@ -512,7 +512,7 @@ default = no
  x =20 
  y =1 
  mutually_exclusive = { focus = liberteegalitefraternite} 
- prerequisite = { focus = internalpolitics} 
+ prerequisite = { focus = internalpoliticsfra} 
  available = {  } 
  cost = 10  
   available_if_capitulated = yes  
@@ -528,7 +528,7 @@ default = no
  x =18 
  y =1 
  mutually_exclusive = { focus = workersrising} 
- prerequisite = { focus = internalpolitics} 
+ prerequisite = { focus = internalpoliticsfra} 
  available = {  } 
  cost = 10  
   available_if_capitulated = yes  

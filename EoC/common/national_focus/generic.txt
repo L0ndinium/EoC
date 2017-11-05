@@ -9,12 +9,12 @@ default = yes
 		focus = { 
 		id = nofocustree 
 		icon = GFX_goal_generic_more_territorial_claims 
-		ai_will_do = { factor = 0 } 
+		ai_will_do = { factor = 100 } 
  x =5 
  y =0 
  mutually_exclusive = { focus = } 
  prerequisite = { focus = } 
- cost = 52000  
+ cost = 10000  
   available_if_capitulated = yes  
  }#End of focuses 
 }
