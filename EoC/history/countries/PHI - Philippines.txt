@@ -1,0 +1,52 @@
+﻿capital = 327
+
+oob = "PHI_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 5
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 83
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 11
+		}
+		
+		neutrality = {
+			popularity = 6
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1917.9.15"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Emilio Aguinaldo"
+	desc = "POLITICS_EMILIO_AGUINALDO_DESC"
+	picture = "gfx/leaders/PHI/EmilioAguinaldo.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

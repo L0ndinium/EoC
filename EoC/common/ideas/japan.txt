@@ -1,0 +1,20 @@
+ideas = {
+
+	country = {
+		JAP_Shinto = {
+			allowed = {
+				original_tag = FCD
+			}
+			
+			picture = state_shintoism
+			
+			removal_cost = -1
+
+			modifier = {
+				unity_factor = 0.1
+			}
+		}
+	}
+	
+	
+}

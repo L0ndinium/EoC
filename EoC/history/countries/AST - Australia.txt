@@ -1,0 +1,52 @@
+﻿capital = 285
+
+oob = "AST_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 10
+set_national_unity = 0.7
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 94
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 3
+		}
+		
+		neutrality = {
+			popularity = 3
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1919.9.15"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Billy Hughes"
+	desc = "POLITICS_BILLY_HUGHES_DESC"
+	picture = "gfx/leaders/AST/BillyHughes.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

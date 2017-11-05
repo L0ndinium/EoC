@@ -1,0 +1,63 @@
+﻿capital = 282
+
+oob = "JAP_1920"
+
+add_ideas = {
+	JAP_Shinto
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 100
+set_research_slots = 2
+set_national_unity = 0.8
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 2
+		}
+
+		fascism = {
+			popularity = 92
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = {
+			popularity = 6
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1920.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Hirohito.dds"
+	expire = "1990.1.1"
+	ideology = fascism_ideology
+	traits = {
+		warrior_code
+	}
+}
+
+create_country_leader = {
+	name = "Taisho"
+	desc = "POLITICS_TAISHO_DESC"
+	picture = "gfx/leaders/JAP/Taisho.dds"
+	expire = "1926.12.25"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

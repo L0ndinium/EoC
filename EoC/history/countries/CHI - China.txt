@@ -1,0 +1,52 @@
+﻿capital = 613 # Nanjing
+
+oob = "CHI_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 25
+set_national_unity = 0.4
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1920.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Li Yuanhong"
+	desc = "POLITICS_LI_YUANHONG_DESC"
+	picture = "gfx/leaders/CHI/LiYuanhong.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

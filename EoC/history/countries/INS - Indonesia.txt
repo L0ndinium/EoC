@@ -1,0 +1,53 @@
+﻿capital = 335 #Jakarta
+
+oob = "INS_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 20
+set_national_unity = 0.7
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 15
+		}
+		neutrality = {
+			popularity = 65
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1915.9.15"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_cosmetic_tag = INS_HOL
+
+create_country_leader = {
+	name = "Dutch Government"
+	desc = "POLITICS_INS_DUTCH_DESC"
+	picture = "gfx/leaders/INS/DutchReign.dds"
+	expire = "1990.1.1"
+	ideology = moderatism
+	traits = {
+		
+	}
+}
