@@ -429,7 +429,7 @@ default = yes
  ai_will_do = { factor = } 
  x =13 
  y =2 
- mutually_exclusive = { focus = communism} 
+ mutually_exclusive = { focus = communismgeneric } 
  prerequisite = { focus = authoritarianism} 
  available = {  } 
  cost = 10  
@@ -439,7 +439,7 @@ default = yes
  } 
  }#Focus for Communism 
 	focus = { 
-	id = communism 
+	id = communismgeneric 
 	icon = GFX_goal_generic_support_communism 
 	bypass = {} 
  ai_will_do = { factor = } 
@@ -462,7 +462,7 @@ default = yes
  x =11 
  y =3 
  mutually_exclusive = { } 
- prerequisite = { focus = communism} 
+ prerequisite = { focus = communismgeneric } 
  available = {  } 
  cost = 10  
   available_if_capitulated = yes  

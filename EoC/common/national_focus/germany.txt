@@ -75,7 +75,7 @@ default = no
  } 
  }#Focus for Communism 
 	focus = { 
-	id = communism 
+	id = communismforgermany 
 	icon = GFX_goal_generic_support_communism 
 	bypass = {} 
  ai_will_do = { factor = } 
@@ -97,7 +97,7 @@ default = no
  ai_will_do = { factor = } 
  x =15 
  y =4 
- mutually_exclusive = { focus = communism} 
+ mutually_exclusive = { focus = communismforgermany } 
  prerequisite = { focus = authoritarianleanings} 
  available = {  } 
  cost = 10  
@@ -130,7 +130,7 @@ default = no
  x =13 
  y =5 
  mutually_exclusive = { } 
- prerequisite = { focus = communism} 
+ prerequisite = { focus = communismforgermany } 
  available = {  } 
  cost = 10  
   available_if_capitulated = yes  

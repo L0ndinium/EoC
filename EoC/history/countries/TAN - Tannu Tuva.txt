@@ -1,0 +1,56 @@
+﻿capital = 329
+
+oob = "TAN_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 0
+set_national_unity = 0.8
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+			banned = yes
+		}
+
+		fascism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communism = {
+			popularity = 100
+			banned = no
+		}
+		
+		neutrality = {
+			popularity = 0
+			banned = yes
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1920.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Communist Regime"
+	desc = "POLITICS_TAN_COMMIES_DESC"
+	picture = "gfx/leaders/TAN/CommunistRegime.dds"
+	expire = "1990.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}

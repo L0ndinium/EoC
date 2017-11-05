@@ -1,0 +1,68 @@
+﻿capital = 219
+
+oob = "SOV_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 40
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 12
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 83
+		}
+		
+		neutrality = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1917.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_faction = Comintern
+add_to_faction = SOV
+add_to_faction = TAN
+
+create_country_leader = {
+	name = "Joseph Stalin"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "gfx/leaders/SOV/Stalin.dds"
+	expire = "1990.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Lenin"
+	desc = "POLITICS_VLADIMIR_LENIN_DESC"
+	picture = "gfx/leaders/SOV/Lenin.dds"
+	expire = "1990.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+	id = 1000
+}

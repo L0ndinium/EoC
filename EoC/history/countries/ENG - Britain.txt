@@ -48,6 +48,16 @@ set_politics = {
 	elections_allowed = yes
 }
 
+create_faction = Commonwealth
+add_to_faction = ENG
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = SAF
+add_to_faction = MAL
+add_to_faction = IRQ
+add_to_faction = RAJ
+
 create_country_leader = {
 	name = "George V and the parliament"
 	desc = "POLITICS_GEORGEV_DESC"
