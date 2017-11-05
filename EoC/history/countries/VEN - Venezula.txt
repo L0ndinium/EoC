@@ -1,0 +1,52 @@
+﻿capital = 307
+
+oob = "VEN_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_national_unity = 0.65
+set_convoys = 0
+set_research_slots = 2
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1918.6.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Carlos Barrueco"
+	desc = "POLITICS_SOUTHAMERICA_GENERIC_DESC"
+	picture = "gfx/leaders/SouthAmerica/generic_3.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

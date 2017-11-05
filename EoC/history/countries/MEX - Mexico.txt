@@ -1,0 +1,52 @@
+﻿capital = 277
+
+oob = "MEX_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_convoys = 25
+set_national_unity = 0.6
+set_research_slots = 2
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 6
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 94
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1916.7.1"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Alvaro Obregon"
+	desc = "POLITICS_ALVARO_OBREGON_DESC"
+	picture = "gfx/leaders/MEX/AlvaroObregon.dds"
+	expire = "1990.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

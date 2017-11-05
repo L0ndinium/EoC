@@ -1,0 +1,52 @@
+﻿capital = 279
+
+oob = "CHL_1920"
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+set_national_unity = 0.65
+set_convoys = 0
+set_research_slots = 2
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 100
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1919.8.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Abram Ferrant"
+	desc = "POLITICS_SOUTHAMERICA_GENERIC_DESC"
+	picture = "gfx/leaders/SouthAmerica/generic_7.dds"
+	expire = "1990.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
