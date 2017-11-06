@@ -2481,12 +2481,10 @@
  
  FCD_Gov:0 "City Council of Danzig"
  FCD_Gov_desc:0 "The free city of Danzig is ruled by a city council, which makes it extremely hard to influence the ideology of its politicians."
-
  ENG_Stoic:0 "British Stoicism"
  ENG_Stoic_desc:0 "The British are very steadfast in their ideology and unlikely to change it unless subject to extreme pressure."
  ENG_Greatwar_Victor:0 "Victory in the Great War"
  ENG_Greatwar_Victor_desc:0 "Being one of the victors of the Great War means that we have much more political leverage than other countries, but it also means that military research is more sluggish."
- 
  GER_versailles:0 "Treaty of Versailles"
  GER_versailles_desc:0 "The Treaty of Versailles greatly limits our ability to wage war. Additionally, we may own no more than 10 divisions at any given time."
  GER_MaxTroops:0 "Exceeded Army Limit"
@@ -2513,12 +2511,20 @@
  GER_hunger_desc:0 "Germanys Food Industry still lies crippled from the Great War."
  GER_BerlinFucked:0 "Major strikes in Berlin!"
  GER_BerlinFucked_desc:0 "Major strikes in Berlin have left the city without water or light, and we are forced to supply it until the strikes end."
- 
+ GER_Inflation1:0 "The Mark is losing its value"
+ GER_Inflation1_desc:0 "The Mark is quickly losing its value due to the War Reparations we have to pay."
+ GER_Inflation2:0 "Significant Economic Crisis"
+ GER_Inflation2_desc:0 "The Mark continues to fall in value, one German Mark is worth about 320 US Dollars right now. If this continues a bit longer, we will spiral into a full-fledged economic crisis."
+ GER_Inflation3:0 "Economy on the verge of collapse"
+ GER_Inflation3_desc:0 "The Inflation in Germany runs on and on, and is not far from collapsing the entire economy of the country."
+ GER_Inflation4:0 "Hyperinflation"
+ GER_Inflation4_desc:0 "The German Economy is collapsing in a vicious cycle."
+ GER_InflationConsequences:0 "Aftermath of the Hyperinflation"
+ GER_InflationConsequences_desc:0 "Although the worst is over, we are still suffering from the consequences of our economic crisis."
  POL_AuthDrift:0 "Authoritarian Influence"
  POL_AuthDrift_desc:0 "A large chunk of our populace support authoritarian politics. This influences the popularity of such politicians in our country."
  POL_IndirectRussia:0 "Indirect War with Russia"
  POL_IndirectRussia_desc:0 "As a consequence of the Soviet Revolution in Russia, our country is leading an indirect war against them: We are not in direct conflict, but there are brawls occuring again and again, especially at the border."
- 
  FRA_WonGW:0 "Victors of the Great War"
  FRA_WonGW_desc:0 "Our people and military take pride in having won the Great War, but it has also made them lazy."
  FRA_BuildingMaginot:0 "Constructing the Maginot Line"
@@ -2531,22 +2537,16 @@
  FRA_Communism_desc:0 "Frances Workers are rising for their rights in cooperation with the government - a communist regime is slowly being established."
  FRA_Democratic:0 "Liberte, Egalite, Fraternite"
  FRA_Democratic_desc:0 "France has always been a bastion of revolution and freedom. The country stands as one of the strongest democracies in Europe."
- 
  BEL_HalfDemo:0 "Belgian Democracy"
  BEL_HalfDemo_desc:0 "The country of Belgium has a very complex political system, and also still has a king as head of state even though they are a democracy."
- 
  LUX_Rich:0 "Luxembourg's Riches"
  LUX_Rich_desc:0 "Luxembourg is a small country with a long history. It has always been a bastion of wealth and refuge for the rich, which has over time led the country to become one of the worlds leaders in wealth per capita."
- 
  SPR_Boom:0 "Economic Boom"
  SPR_Boom_desc:0 "After Spanish neutrality in the Great War allowed the country to export supplies to both sides for profit, the country is experiencing an economic boom."
- 
  ITA_Fascism:0 "Fascist Influences"
  ITA_Fascism_desc:0 "The so-called fascist ideology has been gaining influence in Italy ever since the Great War and tensions are rising."
- 
  POR_Unstable:0 "Unstable Country"
  POR_Unstable_desc:0 "Ever since the first Portugese Republic has been proclaimed, the country has been suffering from instability."
- 
  GENERIC_Construction:0 "Construction Projects"
  GENERIC_Construction_desc:0 "We are funding Construction Projects within our country."
  GENERIC_Auth:0 "Democracy receding"
@@ -2561,6 +2561,9 @@
  GENERIC_Dockyards_desc:0 "This country is currently expanding its naval industry."
  GENERIC_OfficerSchool:0 "Officer Schools"
  GENERIC_OfficerSchool_desc:0 "This country places great value in correctly schooling their military leaders."
- 
  JAP_Shinto:0 "Shintoism"
  JAP_Shinto_desc:0 "Japan is unified under the banner of the Shinto Religion."
+ USA_1920Recession:0 "Recession of 1920"
+ USA_1920Recession_desc:0 "Our country is suffering from a minor economic crisis."
+ USA_Prohibition:0 "Prohibition"
+ USA_Prohibition_desc:0 "The private possession of intoxicating liquors has been banned in the United States."

@@ -1,0 +1,21 @@
+﻿add_namespace = china
+
+#The PRC comes into existence
+country_event = {
+		id = china.1
+		title = china.1.t
+		desc = china.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = CHI
+				date > 1927.6.4
+				622 = { is_controlled_by = CHI }
+		}
+		
+		option = {
+				name = china.1.a
+				PRC = { transfer_state = 622 }
+		}
+}

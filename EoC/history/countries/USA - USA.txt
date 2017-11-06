@@ -8,6 +8,7 @@ set_technology = {
 
 add_ideas = {
 	free_trade
+	USA_1920Recession
 }
 
 set_convoys = 250
@@ -37,58 +38,14 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1917.3.4"
 	election_frequency = 48
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Franklin D. Roosevelt"
-	desc = "POLITICS_FRANKLINDROOSEVELT_DESC"
-	picture = "gfx/leaders/USA/FranklinDRoosevelt.dds"
-	expire = "1945.4.12"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Herbert Hoover"
-	desc = "POLITICS_HERBERT_HOOVER_DESC"
-	picture = "gfx/leaders/USA/HerbertHoover.dds"
-	expire = "1933.3.4"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Calvin Coolidge"
-	desc = "POLITICS_CALVIN_COOLIDGE_DESC"
-	picture = "gfx/leaders/USA/CalvinCoolidge.dds"
-	expire = "1929.3.4"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Warren G. Harding"
-	desc = "POLITICS_WARRENGHARDING_DESC"
-	picture = "gfx/leaders/USA/WarrenGHarding.dds"
-	expire = "1923.8.2"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	elections_allowed = no
 }
 
 create_country_leader = {
 	name = "Woodrow Wilson"
 	desc = "POLITICS_WOODROW_WILSON_DESC"
 	picture = "gfx/leaders/USA/WoodrowWilson.dds"
-	expire = "1921.3.4"
+	expire = "1990.1.1"
 	ideology = liberalism
 	traits = {
 		#

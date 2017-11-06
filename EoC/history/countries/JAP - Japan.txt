@@ -41,23 +41,13 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "gfx/leaders/JAP/Hirohito.dds"
-	expire = "1990.1.1"
-	ideology = fascism_ideology
-	traits = {
-		warrior_code
-	}
-}
-
-create_country_leader = {
 	name = "Taisho"
 	desc = "POLITICS_TAISHO_DESC"
 	picture = "gfx/leaders/JAP/Taisho.dds"
-	expire = "1926.12.25"
+	expire = "1990.1.1"
 	ideology = fascism_ideology
 	traits = {
 		#
 	}
+	id = 1002
 }

@@ -1,0 +1,37 @@
+ideas = {
+
+	country = {
+		USA_1920Recession = {
+			allowed = {
+				original_tag = USA
+			}			
+			
+			picture = great_depression
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		USA_Prohibition = {
+			allowed = {
+				original_tag = USA
+			}
+			
+			picture = generic_central_management
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = -0.05
+				political_power_factor = -0.25
+			}
+		}
+	}
+	
+
+}

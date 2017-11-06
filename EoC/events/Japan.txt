@@ -1,0 +1,83 @@
+﻿add_namespace = japan
+
+#Taisho dies, Hirohito becomes Emperor
+country_event = {
+		id = japan.1
+		title = japan.1.t
+		desc = japan.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = JAP
+				date > 1926.12.14
+				has_country_leader = { id = 1002 ruling_only = yes name = "Taisho" }
+		}
+		
+		option = {
+				name = japan.1.a
+				add_national_unity = -0.05
+				kill_country_leader = yes
+				create_country_leader = {
+				name = "Hirohito"
+				desc = "POLITICS_HIROHITO_DESC"
+				picture = "gfx/leaders/JAP/Hirohito.dds"
+				expire = "1990.1.1"
+				ideology = fascism_ideology
+				traits = {
+					warrior_code
+				}
+			}
+		}
+}
+
+#Japan invades Manchuria
+country_event = {
+		id = japan.2
+		title = japan.2.t
+		desc = japan.2.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = JAP
+				date > 1931.2.17
+				NOT = { MAN = { is_puppet_of = JAP } }
+		}
+		
+		option = {
+				name = japan.2.a
+				ai_chance = { factor = 100 }
+				declare_war_on = { target = MAN type = puppet_wargoal_focus }
+				hidden_effect = { set_global_flag = japan_invasion_man }
+				hidden_effect = { news_event = news.3 }
+		}
+		
+		option = {
+				name = japan.2.b
+				ai_chance = { factor = 0 }
+				add_political_power = 50
+		}
+}
+
+#Manchuria surrenders to Japan
+country_event = {
+		id = japan.3
+		title = japan.3.t
+		desc = japan.3.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = JAP
+				has_global_flag = japan_invasion_man
+				JAP = { has_war_with = MAN }
+				MAN = { surrender_progress > 0.6 }
+		}
+		
+		option = {
+				name = japan.3.a
+				puppet = MAN
+				hidden_effect = { clr_global_flag = japan_invasion_man }
+		}
+}

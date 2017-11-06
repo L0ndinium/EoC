@@ -47,7 +47,8 @@ country_event = {
 		id = germany.3
 		title = germany.3.t
 		desc = germany.3.d
-		picture = Kapp_Coup.dds
+		
+		picture = GFX_Kapp_Coup
 		
 		fire_only_once = yes
 		
@@ -376,5 +377,189 @@ country_event = {
 		option = {
 				name = germany.18.a
 				add_national_unity = -0.05
+		}
+}
+
+#Ebert dies, Hindenburg is elected in 1925
+country_event = {
+		id = germany.19
+		title = germany.19.t
+		desc = germany.19.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				date > 1925.5.11
+				date < 1925.9.1
+				democratic < 0.75
+		}
+		
+		option = {
+				name = germany.19.a
+				kill_country_leader = yes
+				create_country_leader = {
+				name = "Paul von Hindenburg"
+				desc = "POLITICS_EMPTY_DESC"
+				picture = "gfx/leaders/GER/PaulVonHindenburg.dds"
+				expire = "1990.1.1"
+				ideology = oligarchism
+				traits = {
+					#
+				}
+			}
+		}
+}
+
+#Ebert dies, Stresemann ist elected in 1925
+country_event = {
+		id = germany.20
+		title = germany.20.t
+		desc = germany.20.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				date > 1925.5.11
+				date < 1925.9.1
+				democratic > 0.75
+		}
+		
+		option = {
+				name = germany.20.a
+				kill_country_leader = yes
+				create_country_leader = {
+				name = "Gustav Stresemann"
+				desc = "POLITICS_GUSTAV_STRESEMANN_DESC"
+				picture = "gfx/leaders/GER/GustavStresemann.dds"
+				expire = "1990.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}
+		}
+}
+
+#War Reparations destabilize the Mark
+country_event = {
+		id = germany.21
+		title = germany.21.t
+		desc = germany.21.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_Reparations
+		}
+		
+		option = {
+				name = germany.21.a
+				add_ideas = GER_Inflation1
+		}
+}
+
+#The Mark loses another 75% of its value
+country_event = {
+		id = germany.22
+		title = germany.22.t
+		desc = germany.22.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_Inflation1
+				date > 1922.4.16
+		}
+		
+		option = {
+				name = germany.22.a
+				swap_ideas = { remove_idea = GER_Inflation1 add_idea = GER_Inflation2 }
+		}
+}
+
+#The Mark is almost done
+country_event = {
+		id = germany.23
+		title = germany.23.t
+		desc = germany.23.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_Inflation2
+				date > 1922.9.26
+		}
+		
+		option = {
+				name = germany.23.a
+				swap_ideas = { remove_idea = GER_Inflation2 add_idea = GER_Inflation3 }
+		}
+}
+
+#Total Hyperinflation, economy broken
+country_event = {
+		id = germany.24
+		title = germany.24.t
+		desc = germany.24.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_Inflation3
+				date > 1923.2.15
+		}
+		
+		option = {
+				name = germany.24.a
+				swap_ideas = { remove_idea = GER_Inflation3 add_idea = GER_Inflation4 }
+				hidden_effect = { news_event = news_event.4 }
+		}
+}
+
+#The Reichsbank stabilizes the economy
+country_event = {
+		id = germany.25
+		title = germany.25.t
+		desc = germany.25.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_Inflation4
+				date > 1923.11.15
+		}
+		
+		option = {
+				name = germany.25.a
+				remove_ideas = GER_Inflation4
+				add_ideas = GER_InflationConsequences
+		}
+}
+
+#Economic crisis over
+country_event = {
+		id = germany.26
+		title = germany.26.t
+		desc = germany.26.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GER
+				has_idea = GER_InflationConsequences
+				date > 1924.5.23
+		}
+		
+		option = {
+				name = germany.26.a
+				remove_ideas = GER_InflationConsequences
+				hidden_effect = { news_event = news_event.5 }
 		}
 }

@@ -1,0 +1,208 @@
+﻿add_namespace = usa
+
+#Election on March 4, 1921
+country_event = {
+		id = usa.1
+		title = usa.1.t
+		desc = usa.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = USA
+				date > 1921.3.3
+				has_government = democratic
+		}
+		
+		option = {
+				name = usa.1.a
+				retire_country_leader = yes
+				create_country_leader = {
+				name = "Warren G. Harding"
+				desc = "POLITICS_WARRENGHARDING_DESC"
+				picture = "gfx/leaders/USA/WarrenGHarding.dds"
+				expire = "1990.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+				id = 1001
+			}
+		}
+}
+
+#Warren G. Harding dies in office, new leader for the USA
+country_event = {
+		id = usa.2
+		title = usa.2.t
+		desc = usa.2.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = USA
+				date > 1923.8.1
+				has_government = democratic
+				has_country_leader = { id = 1001 ruling_only = yes name = "Warren G. Harding" }
+		}
+		
+		option = {
+				name = usa.2.a
+				kill_country_leader = yes
+				create_country_leader = {
+				name = "Calvin Coolidge"
+				desc = "POLITICS_CALVIN_COOLIDGE_DESC"
+				picture = "gfx/leaders/USA/CalvinCoolidge.dds"
+				expire = "1990.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}
+		}
+}
+
+#Election on March 4, 1929
+country_event = {
+		id = usa.3
+		title = usa.3.t
+		desc = usa.3.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = USA
+				date > 1929.3.3
+				has_government = democratic
+		}
+		
+		option = {
+				name = usa.3.a
+				retire_country_leader = yes
+				create_country_leader = {
+				name = "Herbert Hoover"
+				desc = "POLITICS_HERBERT_HOOVER_DESC"
+				picture = "gfx/leaders/USA/HerbertHoover.dds"
+				expire = "1990.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}
+		}
+}
+
+#Election on March 4, 1933
+country_event = {
+		id = usa.4
+		title = usa.4.t
+		desc = usa.4.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = USA
+				date > 1933.3.3
+				has_government = democratic 
+		}
+		
+		option = {
+				name = usa.4.a
+				retire_country_leader = yes
+				create_country_leader = {
+				name = "Franklin D. Roosevelt"
+				desc = "POLITICS_FRANKLINDROOSEVELT_DESC"
+				picture = "gfx/leaders/USA/FranklinDRoosevelt.dds"
+				expire = "1990.1.1"
+				ideology = liberalism
+				traits = {
+					#
+				}
+			}
+		}
+}
+
+#Election on March 4, 1925
+country_event = {
+		id = usa.5
+		title = usa.5.t
+		desc = usa.5.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = USA
+				date > 1925.3.3
+				has_government = democratic
+		}
+		
+		option = {
+				name = usa.5.a
+		}
+}
+				
+#Recession of 1920 ends
+country_event = {
+		id = usa.6
+		title = usa.6.t
+		desc = usa.6.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = USA
+				date > 1921.5.4
+				has_idea = USA_1920Recession
+		}
+		
+		option = {
+				name = usa.6.a
+				remove_ideas = USA_1920Recession
+		}
+}
+
+#19th Amendment is passed
+country_event = {
+		id = usa.7
+		title = usa.7.t
+		desc = usa.7.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = USA
+				date > 1920.8.17
+		}
+		
+		option = {
+				name = usa.7.a
+				add_political_power = -50
+				add_national_unity = 0.05
+		}
+}
+
+#Prohibition
+country_event = {
+		id = usa.8
+		title = usa.8.t
+		desc = usa.8.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = USA
+				date > 1920.1.16
+		}
+		
+		option = {
+				name = usa.8.a
+				add_ideas = USA_Prohibition
+				hidden_effect = { news_event = news.2 }
+		}
+		
+		option = {
+				name = usa.8.b
+				add_political_power = -200
+				add_national_unity = -0.1
+		}
+}

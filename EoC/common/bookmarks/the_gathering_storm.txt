@@ -18,6 +18,9 @@ bookmarks = {
 		"USA"={
 			history = "USA_EOC_DESC"
 			ideology = democratic
+			ideas = {
+					USA_1920Recession
+			}
 		}
 		"ENG"={
 			history = "ENG_EOC_DESC"
@@ -45,7 +48,10 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_EOC_DESC"
-			ideology = fascism		
+			ideology = fascism	
+			ideas = {
+				JAP_Shinto
+			}
 		}
 		"SOV"={
 			history = "SOV_EOC_DESC"

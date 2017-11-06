@@ -26,3 +26,87 @@ news_event = {
 			}
 		}
 }
+
+#Prohibition in the USA
+news_event = {
+		id = news.2
+		title = news.2.t
+		desc = news.2.d
+		picture = GFX_report_event_generic_factory
+		
+		major = yes
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = news.2.a
+		}
+}
+
+#Japan invades Manchuria
+news_event = {
+		id = news.3
+		title = news.3.t
+		desc = news.3.d
+		picture = GFX_report_event_generic_battle
+		
+		major = yes
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = news.3.a
+				trigger = {
+					NOT = {
+						TAG = MAN
+						TAG = JAP
+					}
+				}
+		}
+		
+		option = {
+				name = news.3.b
+				trigger = {
+					TAG = MAN
+				}
+		}
+		
+		option = {
+				name = news.3.c
+				trigger = {
+					TAG = JAP
+				}
+		}
+}
+
+#Hpyerinflation in Germany
+news_event = {
+		id = news.4
+		title = news.4.t
+		desc = news.4.d
+		picture = GFX_report_event_generic_ruins
+		
+		major = yes
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = news.4.a
+		}
+}
+
+#German Economic Crisis is over
+news_event = {
+		id = news.5
+		title = news.5.t
+		desc = news.5.d
+		picture = GFX_report_event_generic_rally
+		
+		major = yes
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = news.5.a
+		}
+}
