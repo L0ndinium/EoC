@@ -19,5 +19,6 @@ country_event = {
 		option = {
 				name = italy.1.a
 				set_politics = { ruling_party = fascism elections_allowed = no }
+				hidden_effect = { news_event = news.6 }
 		}
 }

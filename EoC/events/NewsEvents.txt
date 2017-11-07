@@ -110,3 +110,19 @@ news_event = {
 				name = news.5.a
 		}
 }
+
+#The March on Rome
+news_event = {
+		id = news.6
+		title = news.6.t
+		desc = news.6.d
+		picture = GFX_report_event_generic_rally
+		
+		major = yes
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = news.6.a
+		}
+}
