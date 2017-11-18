@@ -78,7 +78,7 @@ technology_categories = {
 	logistics_tech
 	signal_company_tech
 	maintenance_company_tech
-
+	#zeppelin
 }
 
 technology_folders = {

@@ -398,6 +398,7 @@ country_event = {
 		option = {
 				name = germany.19.a
 				kill_country_leader = yes
+				set_politics = { ruling_party = neutrality elections_allowed = no }
 				create_country_leader = {
 				name = "Paul von Hindenburg"
 				desc = "POLITICS_EMPTY_DESC"

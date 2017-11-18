@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		362 389 9263 
+		362 
 	}
 	add_extra_state_shared_building_slots = 4
 }

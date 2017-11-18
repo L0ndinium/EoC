@@ -1,0 +1,21 @@
+﻿add_namespace = poland
+
+#Soviet-Polish War ends
+country_event = {
+		id = poland.1
+		title = poland.1.t
+		desc = poland.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = POL
+				date > 1921.3.17
+				has_idea = POL_IndirectRussia
+		}
+		
+		option = {
+				name = poland.1.a
+				remove_ideas = POL_IndirectRussia
+		}
+}

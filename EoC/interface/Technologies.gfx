@@ -2639,6 +2639,11 @@ spriteTypes = {
 	### Generic Aircrafts ###	
 
 	SpriteType = {
+		name = "GFX_zeppelin0_medium"
+		texturefile = "gfx/interface/technologies/zeppelin1.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_transport_plane_equipment_medium"
 		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
 	}	
@@ -2739,18 +2744,28 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_naval_bomber1_medium"
+		name = "GFX_naval_bomber0_medium"
 		texturefile = "gfx/interface/technologies/naval_bomber1.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_naval_bomber2_medium"
+		name = "GFX_naval_bomber1_medium"
 		texturefile = "gfx/interface/technologies/naval_bomber2.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_naval_bomber3_medium"
+		name = "GFX_naval_bomber2_medium"
 		texturefile = "gfx/interface/technologies/naval_bomber3.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/naval_bomber4.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_naval_bomber4_medium"
+		texturefile = "gfx/interface/technologies/naval_bomber5.dds"
 	}
 	
 	SpriteType = {

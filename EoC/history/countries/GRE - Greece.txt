@@ -15,6 +15,8 @@ set_technology = {
 set_convoys = 10
 set_national_unity = 0.6
 
+declare_war_on = { target = TUR type = annex_everything }
+
 set_politics = {
 
 	parties = {
