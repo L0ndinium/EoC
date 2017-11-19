@@ -714,3 +714,20 @@ country_event = {
 				ai_chance = { factor = 100 }
 		}
 }
+
+##Temporary event that gives everyone enough XP to make a simple OOB so countries will do something when fighting
+#country_event = {
+#		id = generic.9
+#		title = generic.9.t
+#		desc = generic.9.d
+#		
+#		is_triggered_only = yes
+#		
+#		hidden = yes
+#		
+#		option = {
+#				name = generic.9.a
+#				ai_chance = { factor = 100 }
+#				army_experience = 10
+#		}
+#}
