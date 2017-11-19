@@ -712,6 +712,7 @@ country_event = {
 		option = {
 				name = generic.8.a
 				ai_chance = { factor = 100 }
+				USA = { country_event = { days = 24 id = usa.9 } }		#This triggers on January 26, 1920, therefore go from January 2 forward when calculating time to events	
 		}
 }
 

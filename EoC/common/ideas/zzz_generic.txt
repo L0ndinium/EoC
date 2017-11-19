@@ -299,7 +299,9 @@ political_advisor = {
 		generic_captain_of_industry = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_captain_of_industry limit = 1 }
+				}
 			}
 			
 			traits = { captain_of_industry }
@@ -308,7 +310,9 @@ political_advisor = {
 		generic_fortification_engineer = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				 NOT = {
+					has_available_idea_with_traits = { idea = generic_fortification_engineer limit = 1 }
+				}
 			}
 			
 			traits = { fortification_engineer }
@@ -317,7 +321,9 @@ political_advisor = {
 		generic_war_industrialist = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_war_industrialist limit = 1 }
+				}
 			}
 			
 			traits = { war_industrialist }
@@ -329,7 +335,9 @@ political_advisor = {
 		generic_army_chief_off = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_army_chief_off limit = 1 }
+				}
 			}
 			
 			traits = { army_chief_offensive_1 }
@@ -338,7 +346,9 @@ political_advisor = {
 		generic_army_chief_def = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_army_chief_def limit = 1 }
+				}
 			}
 			
 			traits = { army_chief_defensive_1 }
@@ -350,7 +360,9 @@ political_advisor = {
 		generic_navy_chief_decisive_bat = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_navy_chief_decisive_bat limit = 1 }
+				}
 			}
 			
 			traits = { navy_chief_decisive_battle_2 }
@@ -359,7 +371,9 @@ political_advisor = {
 		generic_navy_anti_submarine = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_navy_anti_submarine limit = 1 }
+				}
 			}
 			
 			traits = { navy_anti_submarine_2 }
@@ -371,7 +385,9 @@ political_advisor = {
 		generic_air_close_air_sup = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_air_close_air_sup limit = 1 }
+				}
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -380,7 +396,9 @@ political_advisor = {
 		generic_air_chief_all_weather = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_air_chief_all_weather limit = 1 }
+				}
 			}
 			
 			traits = { air_chief_all_weather_2 }			
@@ -392,7 +410,9 @@ political_advisor = {
 		generic_army_art = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_army_art limit = 1 }
+				}
 			}
 			
 			traits = { army_artillery_1 }			
@@ -401,7 +421,9 @@ political_advisor = {
 		generic_army_log = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_army_log limit = 1 }
+				}
 			}
 			
 			traits = { army_logistics_2 }			
@@ -410,7 +432,9 @@ political_advisor = {
 		generic_navy_fleet_log = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_navy_fleet_log limit = 1 }
+				}
 			}
 			
 			traits = { navy_fleet_logistics_1 }			
@@ -419,7 +443,9 @@ political_advisor = {
 		generic_air_air_combat_trainer = {
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_air_air_combat_trainer limit = 1 }
+				}
 			}
 			
 			traits = { air_air_combat_training_2 }			
@@ -431,7 +457,9 @@ political_advisor = {
 		generic_military_theorist = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_military_theorist limit = 1 }
+				}
 			}
 			
 			research_bonus = {
@@ -444,7 +472,9 @@ political_advisor = {
 		generic_naval_theorist = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_naval_theorist limit = 1 }
+				}
 			}
 			
 			research_bonus = {
@@ -457,7 +487,9 @@ political_advisor = {
 		generic_air_warfare_theorist = {
 			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+				NOT = {
+					has_available_idea_with_traits = { idea = generic_air_warfare_theorist limit = 1 }
+				}
 			}
 			
 			research_bonus = {

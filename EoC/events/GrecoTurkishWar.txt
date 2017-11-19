@@ -1,0 +1,69 @@
+add_namespace = grecoturkishwar
+
+#Greece wins the War
+country_event = {
+		id = grecoturkishwar.1
+		title = grecoturkishwar.1.t
+		desc = grecoturkishwar.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GRE
+				date < 1925.1.1
+				GRE = { has_war_with = TUR }
+				TUR = { surrender_progress > 0.65 }
+		}
+		
+		option = {
+				name = grecoturkishwar.1.a
+				custom_effect_tooltip = grecoturkishwar_greecewins
+				GRE = { transfer_state = 341 }
+				add_political_power = 100
+				hidden_effect = { news_event = news_event.7 hours = 6 }
+		}
+}
+
+#Turkey wins the War
+country_event = {
+		id = grecoturkishwar.2
+		title = grecoturkishwar.2.t
+		desc = grecoturkishwar.2.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = TUR
+				date < 1925.1.1
+				GRE = { has_war_with = TUR }
+				GRE = { surrender_progress > 0.65 }
+		}
+		
+		option = {
+				name = grecoturkishwar.2.a
+				custom_effect_tooltip = grecoturkishwar_turkeywins
+				add_national_unity = 0.1
+				hidden_effect = { news_event = news_event.7 hours = 6 }
+		}
+}
+
+#Britain sends assistance to Greece
+country_event = {
+		id = grecoturkishwar.3
+		title = grecoturkishwar.3.t
+		desc = grecoturkishwar.3.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = GRE
+				country_exists = ENG
+				GRE = { has_war_with = TUR }
+				date > 1920.4.5
+		}
+		
+		option = {
+				name = grecoturkishwar.3.a
+				add_manpower = 10000
+		}
+}

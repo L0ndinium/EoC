@@ -206,3 +206,18 @@ country_event = {
 				add_national_unity = -0.1
 		}
 }
+
+#First Red Scare
+country_event = {
+		id = usa.9
+		title = usa.9.t
+		desc = usa.9.d
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = usa.9.a
+				add_political_power = -25
+				add_national_unity = -0.05
+		}
+}
