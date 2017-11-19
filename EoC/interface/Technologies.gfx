@@ -2637,11 +2637,6 @@ spriteTypes = {
 	}
 	
 	### Generic Aircrafts ###	
-
-	SpriteType = {
-		name = "GFX_zeppelin0_medium"
-		texturefile = "gfx/interface/technologies/zeppelin1.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_transport_plane_equipment_medium"
@@ -2689,18 +2684,28 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_heavy_fighter1_medium"
+		name = "GFX_heavy_fighter0_medium"
 		texturefile = "gfx/interface/technologies/heavy_fighter1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_heavy_fighter2_medium"
+		name = "GFX_heavy_fighter1_medium"
 		texturefile = "gfx/interface/technologies/heavy_fighter2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_heavy_fighter3_medium"
+		name = "GFX_heavy_fighter2_medium"
 		texturefile = "gfx/interface/technologies/heavy_fighter3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/heavy_fighter4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_fighter4_medium"
+		texturefile = "gfx/interface/technologies/heavy_fighter5.dds"
 	}
 
 	SpriteType = {
@@ -2742,6 +2747,21 @@ spriteTypes = {
 		name = "GFX_strategic_bomber3_medium"
 		texturefile = "gfx/interface/technologies/strategic_bomber3.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_strategic_bomber0_medium"
+		texturefile = "gfx/interface/technologies/strategic_bomber0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_strategic_bomber4_medium"
+		texturefile = "gfx/interface/technologies/strategic_bomber4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_strategic_bomber5_medium"
+		texturefile = "gfx/interface/technologies/strategic_bomber5.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_naval_bomber0_medium"
@@ -2781,7 +2801,22 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tactical_bomber1_medium"
 		texturefile = "gfx/interface/technologies/tactical_bomber1.dds"
-	}	
+	}
+
+	SpriteType = {
+		name = "GFX_tactical_bomber4_medium"
+		texturefile = "gfx/interface/technologies/tactical_bomber4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tactical_bomber5_medium"
+		texturefile = "gfx/interface/technologies/tactical_bomber5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tactical_bomber6_medium"
+		texturefile = "gfx/interface/technologies/tactical_bomber6.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_jet_fighter2_medium"

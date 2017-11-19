@@ -5,7 +5,7 @@ oob = "FRA_1920"
 set_research_slots = 2
 
 set_technology = {
-
+	strategic_bomber0 = 1
 }
 
 add_ideas = {

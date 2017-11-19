@@ -657,5 +657,10 @@ technologies = {
 		categories = {
 			nuclear
 		}
+		
+		enable_building = {
+			building = rocket_site
+			level = 2
+		}
 	}
 }

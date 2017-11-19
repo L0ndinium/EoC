@@ -4,7 +4,7 @@ oob = "GER_1920"
 
 
 set_technology = {
-
+	strategic_bomber0 = 1
 }
 
 add_ideas = {
