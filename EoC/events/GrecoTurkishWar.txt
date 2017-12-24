@@ -1,4 +1,4 @@
-add_namespace = grecoturkishwar
+﻿add_namespace = grecoturkishwar
 
 #Greece wins the War
 country_event = {
@@ -18,9 +18,12 @@ country_event = {
 		option = {
 				name = grecoturkishwar.1.a
 				custom_effect_tooltip = grecoturkishwar_greecewins
-				GRE = { transfer_state = 341 }
-				add_political_power = 100
-				hidden_effect = { news_event = news_event.7 hours = 6 }
+				hidden_effect = {
+					white_peace = TUR
+					GRE = { transfer_state = 341 }
+					add_political_power = 100
+					news_event = news_event.7
+				}
 		}
 }
 
@@ -42,8 +45,11 @@ country_event = {
 		option = {
 				name = grecoturkishwar.2.a
 				custom_effect_tooltip = grecoturkishwar_turkeywins
-				add_national_unity = 0.1
-				hidden_effect = { news_event = news_event.7 hours = 6 }
+				hidden_effect = {
+					white_peace = GRE
+					add_national_unity = 0.1
+					news_event = news_event.7
+				}
 		}
 }
 

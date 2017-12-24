@@ -1,4 +1,4 @@
-add_namespace = danzig
+﻿add_namespace = danzig
 
 #Should we join Poland?
 country_event = {

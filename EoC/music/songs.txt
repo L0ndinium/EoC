@@ -297,4 +297,36 @@ music = {
 	}
 }
 
-mus
+music = {
+	song = "germanmarch_2"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			
+			NOT = { TAG = GER }
+		}
+		modifier = {
+			factor = 2
+			
+			TAG = GER
+		}
+	}
+}
+
+music = {
+	song = "germanmarch_3"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			
+			NOT = { TAG = GER }
+		}
+		modifier = {
+			factor = 2
+			
+			TAG = GER
+		}
+	}
+}

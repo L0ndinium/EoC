@@ -1,4 +1,4 @@
-add_namespace = luxembourg
+﻿add_namespace = luxembourg
 
 #Luxembourg expands which leads them to lose their special bonus
 country_event = {

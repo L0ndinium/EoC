@@ -213,7 +213,12 @@ country_event = {
 		title = usa.9.t
 		desc = usa.9.d
 		
-		is_triggered_only = yes
+		fire_only_once = yes
+		
+		trigger = {
+			TAG = USA
+			date > 1920.1.20
+		}
 		
 		option = {
 				name = usa.9.a

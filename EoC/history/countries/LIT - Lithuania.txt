@@ -13,7 +13,7 @@ set_technology = {
 }
 
 set_convoys = 5
-set_natonal_unity = 0.75
+set_national_unity = 0.75
 
 set_politics = {
 

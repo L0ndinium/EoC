@@ -1,4 +1,4 @@
-capital = 85
+﻿capital = 85
 
 oob = "FCD_1920"
 
