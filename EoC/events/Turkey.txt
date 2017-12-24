@@ -1,1 +1,29 @@
-﻿
+﻿add_namespace = turkey
+
+#Greco-Turkish war over, Turkey recovers from chaos
+country_event = {
+		id = turkey.1
+		title = turkey.1.t
+		desc = turkey.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = TUR
+				has_global_flag = greturwarover
+		}
+		
+		option = {
+				name = turkey.1.a
+				create_country_leader = {
+				name = "Mustafa Kemal Atatürk"
+				desc = "#"
+				picture = "gfx/leaders/TUR/MustafaKemalAtaturk.dds"
+				expire = "1990.1.1"
+				ideology = centrism
+				traits = {
+					#
+				}
+			}
+		}
+}

@@ -1,0 +1,29 @@
+add_namespace = saudi
+
+#Political Instability over
+country_event = {
+		id = saudi.1
+		title = saudi.1.t
+		desc = saudi.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+			TAG = SAU
+			date > 1922.4.28
+		}
+		
+		option = {
+				name = saudi.1.a
+				create_country_leader = {
+				name = "Ashqar Massoud"
+				desc = "#"
+				picture = "gfx/leaders/SAU/Ashqar_Massoud.dds"
+				expire = "1990.1.1"
+				ideology = despotism
+				traits = {
+					#
+				}
+			}
+		}
+}

@@ -23,6 +23,7 @@ country_event = {
 					GRE = { transfer_state = 341 }
 					add_political_power = 100
 					news_event = news_event.7
+					set_global_flag = greturwarover
 				}
 		}
 }
@@ -49,6 +50,7 @@ country_event = {
 					white_peace = GRE
 					add_national_unity = 0.1
 					news_event = news_event.7
+					set_global_flag = greturwarover
 				}
 		}
 }
