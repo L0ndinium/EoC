@@ -32,7 +32,7 @@ news_event = {
 		id = news.2
 		title = news.2.t
 		desc = news.2.d
-		picture = GFX_report_event_generic_factory
+		picture = GFX_news_event_generic_factory
 		
 		major = yes
 		
@@ -48,7 +48,7 @@ news_event = {
 		id = news.3
 		title = news.3.t
 		desc = news.3.d
-		picture = GFX_report_event_generic_battle
+		picture = GFX_news_event_generic_battle
 		
 		major = yes
 		
@@ -84,7 +84,7 @@ news_event = {
 		id = news.4
 		title = news.4.t
 		desc = news.4.d
-		picture = GFX_report_event_generic_ruins
+		picture = GFX_news_event_generic_ruins
 		
 		major = yes
 		
@@ -100,7 +100,7 @@ news_event = {
 		id = news.5
 		title = news.5.t
 		desc = news.5.d
-		picture = GFX_report_event_generic_rally
+		picture = GFX_news_event_generic_rally
 		
 		major = yes
 		
@@ -116,7 +116,7 @@ news_event = {
 		id = news.6
 		title = news.6.t
 		desc = news.6.d
-		picture = GFX_report_event_generic_rally
+		picture = GFX_news_event_generic_rally
 		
 		major = yes
 		

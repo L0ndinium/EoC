@@ -19,7 +19,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 71
+			popularity = 17
 		}
 
 		fascism = {
@@ -31,11 +31,11 @@ set_politics = {
 		}
 		
 		neutrality = {
-			popularity = 17
+			popularity = 71
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1918.2.16"
 	election_frequency = 36
 	elections_allowed = no

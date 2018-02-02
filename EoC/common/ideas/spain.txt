@@ -16,6 +16,19 @@ ideas = {
 				MONTHLY_POPULATION = 0.2
 			}
 		}
+		SPR_PrimoDictatorship = {
+			allowed = {
+				original_tag = SPR
+			}
+			
+			picture = generic_spy_coup
+			
+			removal_cost = -1
+			
+			modifier = {
+				#
+			}
+		}
 	}
 	
 	
